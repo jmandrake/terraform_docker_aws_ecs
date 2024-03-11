@@ -1,0 +1,16 @@
+
+variable "aws_region" {
+  description = "AWS region"
+  type    = string
+  default     = var.aws_region
+}
+
+variable "aws_access_key" {
+  description = "AWS access key"
+  default     = var.aws_access_key_id
+}
+
+variable "aws_secret_key" {
+  description = "AWS secret key"
+  default     = var.aws_secret_access_key
+}
