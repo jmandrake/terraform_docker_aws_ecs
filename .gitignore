@@ -129,6 +129,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.terraform/
+terraform/.terraform/
 
 # Spyder project settings
 .spyderproject
