@@ -5,6 +5,12 @@ __pycache__/
 
 z_*
 
+terraform/
+terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/*/terraform-provider-aws_*.exe
+.terraform/
+terraform/.terraform/
+terraform/.terraform.*
+
 # C extensions
 *.so
 
@@ -129,10 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/*/terraform-provider-aws_*.exe
-.terraform/
-terraform/.terraform/
-terraform/.terraform.*
+
 
 # Spyder project settings
 .spyderproject

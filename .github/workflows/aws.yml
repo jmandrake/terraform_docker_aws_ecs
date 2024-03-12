@@ -1,4 +1,4 @@
-name: Deploy to Amazon ECS
+name: Deploy to AWS ECR / ECS
 on:
   push:
     branches:
@@ -9,9 +9,6 @@ env:
   CONTAINER_NAME: app
   ECS_SERVICE: app_service
   ECS_TD: .github/workflows/td.json
-  TF_VAR_aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  TF_VAR_aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  TF_VAR_aws_region: ${{ secrets.AWS_REGION }} # "us-east-1"
 
 jobs:
   deploy:
