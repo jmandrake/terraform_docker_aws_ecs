@@ -5,11 +5,9 @@ __pycache__/
 
 z_*
 
-terraform/
-terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/*/terraform-provider-aws_*.exe
+temp_terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/*/terraform-provider-aws_*.exe
 .terraform/
-terraform/.terraform/
-terraform/.terraform.*
+
 
 # C extensions
 *.so
